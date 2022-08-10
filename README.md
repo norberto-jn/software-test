@@ -74,18 +74,15 @@ module.exports = { getTotalDivisibleBy3Or5 }
 ```php
 <?php
 
-function getTotalDivisibleBy3And5($num)
+function getTotalDivisibleBy3Or5($num)
 {
-    $total = 0;
+        $total = 0;
 
+        for ($number = 0; $number < $num; $number++)
+            if ($number % 3 == 0 || $number % 5 == 0)
+                $total += $number;
 
-	for ($number = 0; $number < $num; $number++)
-        if ($number % 3 == 0 || $number % 5 == 0)
-            $total += $number;
-
-	return $total;
-
-
+        return $total;
 }
 
 echo getTotalDivisibleBy3And5(11);
