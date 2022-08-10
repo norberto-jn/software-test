@@ -1,0 +1,14 @@
+{
+    "name": "mathematical/php",
+    "description": "mathematical calculation",
+    "authors": [
+        {
+            "name": "norberto",
+            "email": "norbertojunio@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
