@@ -1,14 +1,15 @@
 <?php
-
-function getTotalDivisibleBy3Or5($num)
+class MatchCalc
 {
-    $total = 0;
+    function getTotalDivisibleBy3Or5($num)
+    {
+        $total = 0;
 
-    for ($number = 0; $number < $num; $number++)
-        if ($number % 3 == 0 || $number % 5 == 0)
-            $total += $number;
+        for ($number = 0; $number < $num; $number++)
+            if ($number % 3 == 0 || $number % 5 == 0)
+                $total += $number;
 
-    return $total;
+        return $total;
+    }
 }
-
-echo getTotalDivisibleBy3Or5(11);
+//echo getTotalDivisibleBy3Or5(11);

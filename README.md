@@ -65,9 +65,11 @@ module.exports = { getTotalDivisibleBy3Or5 }
 
 **1.  cd php/**
 
-**2. php main.php** 
+**1.  composer install**
 
-   
+**2. ./vendor/bin/phpunit main.test.php --colors** 
+
+  
 
 ```php
 <?php
