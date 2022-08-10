@@ -7,9 +7,10 @@ use PHPUnit\Framework\TestCase;
 class StackTest extends TestCase
 {   
    public function testE(){
-    $a=new MatchCalc();
+    $item=new MatchCalc();
 
-    $this->assertEquals(23,$a->getTotalDivisibleBy3Or5(11));
+    $this->assertEquals(23,$item->getTotalDivisibleBy3Or5(10));
+    $this->assertEquals(33,$item->getTotalDivisibleBy3Or5(11));
    }
    
 }
