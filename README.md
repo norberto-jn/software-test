@@ -39,7 +39,7 @@ class MatchCalc {
 
 **2. npm i**
 
-**3. node main.js**
+**3. npm run test**
 
 
 
